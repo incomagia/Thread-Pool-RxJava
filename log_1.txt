@@ -1,0 +1,273 @@
+"C:\Program Files\Java\jdk-24\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.1.1\lib\idea_rt.jar=64300" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mogil\OneDrive\Desktop\MIFI\курсовая\Coursework-on-multithreaded-Java-pt-1-master\untitled\out\production\untitled ThreadPoolDemo
+июн. 18, 2025 9:02:47 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-1
+июн. 18, 2025 9:02:47 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-2
+июн. 18, 2025 9:02:47 PM CustomThreadPool initializePool
+INFO: Thread pool initialized with 2 core threads
+июн. 18, 2025 9:02:47 PM ThreadPoolDemo main
+INFO: Starting thread pool demonstration...
+июн. 18, 2025 9:02:47 PM ThreadPoolDemo main
+INFO: 
+Scenario 1: Normal operation with moderate load
+июн. 18, 2025 9:02:47 PM ThreadPoolDemo waitForTasks
+INFO: Waiting for 15 seconds...
+июн. 18, 2025 9:02:47 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 started
+июн. 18, 2025 9:02:47 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 started
+июн. 18, 2025 9:02:48 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 completed
+июн. 18, 2025 9:02:48 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 started
+июн. 18, 2025 9:02:48 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 completed
+июн. 18, 2025 9:02:48 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 started
+июн. 18, 2025 9:02:49 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 completed
+июн. 18, 2025 9:02:49 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 started
+июн. 18, 2025 9:02:49 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 completed
+июн. 18, 2025 9:02:49 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 started
+июн. 18, 2025 9:02:50 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 completed
+июн. 18, 2025 9:02:50 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 7 started
+июн. 18, 2025 9:02:50 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 completed
+июн. 18, 2025 9:02:50 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 started
+июн. 18, 2025 9:02:51 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 7 completed
+июн. 18, 2025 9:02:51 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 started
+июн. 18, 2025 9:02:51 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 completed
+июн. 18, 2025 9:02:51 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 8 started
+июн. 18, 2025 9:02:52 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 completed
+июн. 18, 2025 9:02:52 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 8 completed
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo main
+INFO: 
+Scenario 2: High load with potential rejections
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 started
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 started
+июн. 18, 2025 9:03:02 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-3
+июн. 18, 2025 9:03:02 PM CustomThreadPool execute
+INFO: Created new worker thread. Current pool size: 2
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 started
+июн. 18, 2025 9:03:02 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-4
+июн. 18, 2025 9:03:02 PM CustomThreadPool execute
+INFO: Created new worker thread. Current pool size: 3
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 13 started
+июн. 18, 2025 9:03:02 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@7291c18f
+июн. 18, 2025 9:03:02 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@34a245ab
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo waitForTasks
+INFO: Waiting for 15 seconds...
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 completed
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 started
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 completed
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 started
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 completed
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 7 started
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 13 completed
+июн. 18, 2025 9:03:02 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 17 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 7 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 12 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 17 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 8 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 started
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 12 completed
+июн. 18, 2025 9:03:03 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 16 started
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 completed
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 8 completed
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 11 started
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 10 started
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 16 completed
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 11 completed
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 10 completed
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 15 started
+июн. 18, 2025 9:03:04 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 14 started
+июн. 18, 2025 9:03:05 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 15 completed
+июн. 18, 2025 9:03:05 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 14 completed
+июн. 18, 2025 9:03:08 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 3
+июн. 18, 2025 9:03:09 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 2
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo main
+INFO: 
+Scenario 3: Burst of tasks
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 started
+июн. 18, 2025 9:03:17 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-5
+июн. 18, 2025 9:03:17 PM CustomThreadPool execute
+INFO: Created new worker thread. Current pool size: 2
+июн. 18, 2025 9:03:17 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@7cc355be
+июн. 18, 2025 9:03:17 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@6e8cf4c6
+июн. 18, 2025 9:03:17 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@12edcd21
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo waitForTasks
+INFO: Waiting for 15 seconds...
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 2 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 4 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 3 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 5 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 10 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 6 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 11 started
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 9 completed
+июн. 18, 2025 9:03:17 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 14 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 10 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 15 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 11 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 16 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 14 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 19 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 15 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 20 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 16 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 21 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 19 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 24 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 20 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 25 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 21 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 26 started
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 24 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 25 completed
+июн. 18, 2025 9:03:18 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 26 completed
+июн. 18, 2025 9:03:23 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 2
+июн. 18, 2025 9:03:32 PM ThreadPoolDemo main
+INFO: 
+Scenario 4: Long-running tasks
+июн. 18, 2025 9:03:32 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@34c45dca
+июн. 18, 2025 9:03:32 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 started
+июн. 18, 2025 9:03:32 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 started
+июн. 18, 2025 9:03:32 PM CustomThreadPool$CustomThreadFactory newThread
+INFO: Created new thread: CustomThreadPool-Worker-6
+июн. 18, 2025 9:03:32 PM CustomThreadPool execute
+INFO: Created new worker thread. Current pool size: 2
+июн. 18, 2025 9:03:32 PM CustomThreadPool$CustomRejectionHandler rejectedExecution
+WARNING: Task rejected: ThreadPoolDemo$$Lambda/0x0000020b1d007000@52cc8049
+июн. 18, 2025 9:03:32 PM ThreadPoolDemo waitForTasks
+INFO: Waiting for 10 seconds...
+июн. 18, 2025 9:03:37 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 2
+июн. 18, 2025 9:03:37 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 0 completed
+июн. 18, 2025 9:03:37 PM ThreadPoolDemo lambda$submitTasks$0
+INFO: Task 1 completed
+июн. 18, 2025 9:03:42 PM ThreadPoolDemo main
+INFO: 
+Initiating pool shutdown...
+июн. 18, 2025 9:03:42 PM CustomThreadPool shutdown
+INFO: Thread pool shutdown initiated
+июн. 18, 2025 9:03:42 PM ThreadPoolDemo main
+INFO: 
+Final Statistics:
+июн. 18, 2025 9:03:42 PM ThreadPoolDemo main
+INFO: Total completed tasks: 47
+июн. 18, 2025 9:03:42 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 1
+июн. 18, 2025 9:03:42 PM ThreadPoolDemo main
+INFO: Total rejected tasks: 0
+июн. 18, 2025 9:03:42 PM CustomThreadPool$Worker run
+INFO: Worker thread terminated. Current pool size: 0
+
+Process finished with exit code 0

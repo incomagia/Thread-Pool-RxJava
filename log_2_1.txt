@@ -1,0 +1,21 @@
+Example 1: Using flatMap
+FlatMap result: 10
+FlatMap result: 20
+FlatMap result: 20
+FlatMap result: 40
+FlatMap result: 30
+FlatMap result: 60
+FlatMap completed!
+
+Example 2: Error handling
+Received: 1
+Received: 2
+Error handled: Simulated error
+
+Example 3: Disposable usage
+Infinite: 0
+Infinite: 1
+Infinite: 2
+Infinite: 3
+Infinite: 4
+Infinite stream disposed
